@@ -7,7 +7,7 @@ var buildCar = require('./functions.js').buildCar;
 
 describe('functions', function () {
   describe('addTwoNumbers', function () {
-    it.skip('should be able to add zero to zero', function () {
+    it('should be able to add zero to zero', function () {
       // setup for test (if necessary)
 
       // execute function
@@ -17,11 +17,11 @@ describe('functions', function () {
       assert.equal(sum, 0)
     })
 
-    it.skip('should be able to add 1 to 0', function () {
+    it('should be able to add 1 to 0', function () {
       assert.equal(addTwoNumbers(1, 0), 1)
     })
 
-    it.skip('should be able to add 1 to 1', function () {
+    it('should be able to add 1 to 1', function () {
       assert.equal(addTwoNumbers(1, 1), 2)
     })
   })
